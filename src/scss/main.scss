@@ -1,6 +1,9 @@
 body {
   padding: 0;
-  margin: 0;
+  margin: 1%;
+  border-style: solid;
+  border-color: red;
+  box-sizing: border-box;
 }
 
 main {
@@ -32,4 +35,47 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+#btnRandApod {
+  border-radius: 50%;
+  height: 70px;
+  border: none;
+  background-position: center;
+  background-image: url("http://www.downloadclipart.net/thumb/214-globe-vector-thumb.png");
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  float: left;
+}
+
+#btnRandApod:hover {
+  color: black;
+  font-size: 125%;
+}
+
+#apodTitle {
+  padding: 20px;
+  text-decoration: underline;
+}
+
+#apodImg {
+  max-width: 97%;
+  border-style: solid;
+  border-color: blue;
+  border-width: 10px;
+  margin: 1%;
+}
+
+#apodCopyright {
+  margin-left: 3%;
+  float: left;
+}
+
+#apodDate {
+  margin-left: 30%;
+}
+
+#apodDesc {
+  margin-left: 1%;
 }
